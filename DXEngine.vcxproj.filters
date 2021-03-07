@@ -44,8 +44,11 @@
     <ClCompile Include="Engine\Core\Texture.cpp">
       <Filter>Engine\Core</Filter>
     </ClCompile>
-    <ClCompile Include="Engine\Core\Main.cpp">
+    <ClCompile Include="Engine\Main.cpp">
       <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Object.cpp">
+      <Filter>Engine\Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -76,5 +79,43 @@
     <ClInclude Include="Engine\Core\Texture.h">
       <Filter>Engine\Core</Filter>
     </ClInclude>
+    <ClInclude Include="Engine\Core\Object.h">
+      <Filter>Engine\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Engine\Shader\Common.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\DeferredShadingCommon.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\DeferredShadingPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\DeferredShadingVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\ForwardShadingCommon.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\ForwardShadingPS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\ForwardShadingVS.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\LightingModel.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\Postprocess.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\ShadingCommon.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Engine\Shader\Tonemap.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
