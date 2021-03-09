@@ -23,11 +23,17 @@
     <ClCompile Include="Engine\Core\Camera.cpp" />
     <ClCompile Include="Engine\Core\Device.cpp" />
     <ClCompile Include="Engine\Core\Engine.cpp" />
+    <ClCompile Include="Engine\Core\InputManager.cpp" />
     <ClCompile Include="Engine\Core\Light.cpp" />
     <ClCompile Include="Engine\Core\Material.cpp" />
     <ClCompile Include="Engine\Core\Object.cpp" />
+    <ClCompile Include="Engine\Core\PostProcessing.cpp" />
+    <ClCompile Include="Engine\Core\Renderer.cpp" />
     <ClCompile Include="Engine\Core\RenderTarget.cpp" />
     <ClCompile Include="Engine\Core\Scene.cpp" />
+    <ClCompile Include="Engine\Core\SceneManager.cpp" />
+    <ClCompile Include="Engine\Core\StaticMeshAsset.cpp" />
+    <ClCompile Include="Engine\Core\StaticMeshObject.cpp" />
     <ClCompile Include="Engine\Core\Texture.cpp" />
     <ClCompile Include="Engine\Main.cpp" />
   </ItemGroup>
@@ -36,11 +42,17 @@
     <ClInclude Include="Engine\Core\Camera.h" />
     <ClInclude Include="Engine\Core\Device.h" />
     <ClInclude Include="Engine\Core\Engine.h" />
+    <ClInclude Include="Engine\Core\InputManager.h" />
     <ClInclude Include="Engine\Core\Light.h" />
     <ClInclude Include="Engine\Core\Material.h" />
     <ClInclude Include="Engine\Core\Object.h" />
+    <ClInclude Include="Engine\Core\PostProcessing.h" />
+    <ClInclude Include="Engine\Core\Renderer.h" />
     <ClInclude Include="Engine\Core\RenderTarget.h" />
     <ClInclude Include="Engine\Core\Scene.h" />
+    <ClInclude Include="Engine\Core\SceneManager.h" />
+    <ClInclude Include="Engine\Core\StaticMeshAsset.h" />
+    <ClInclude Include="Engine\Core\StaticMeshObject.h" />
     <ClInclude Include="Engine\Core\Texture.h" />
   </ItemGroup>
   <ItemGroup>
